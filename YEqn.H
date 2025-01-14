@@ -8,7 +8,7 @@ tmp<fv::convectionScheme<scalar>> mvConvection
         mesh.divScheme("div(phi,Yi_h)")
     )
 );
-//Asssssss
+
 {
     reaction->correct();
     Qdot = reaction->Qdot();
